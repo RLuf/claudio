@@ -57,7 +57,7 @@ let AI_CONFIG = {
   enable_architecting: true,
   providers: {
     openrouter: {
-      api_key: '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',
+      api_key: '';
       endpoint: 'https://openrouter.ai/api/v1',
       default_model: 'deepseek/deepseek-r1-0528:free',
       temperature: 0.3,
@@ -68,7 +68,7 @@ let AI_CONFIG = {
       }
     },
     openai: {
-      api_key: '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',
+      api_key: '';
       endpoint: 'https://api.openai.com/v1',
       default_model: 'gpt-3.5-turbo',
       temperature: 0.4,
